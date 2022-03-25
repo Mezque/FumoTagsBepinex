@@ -8,7 +8,7 @@ A Bepinex Plugin that loads fumo tags for vrchat, </br>
   <summary>Install Guide</summary>
   
   * Make sure you have Bepinex installed, `THIS IS A BEPIN PLUGIN NOT A MELONLOADER MOD!`
-  * Move plugin to `GAMEINSTALL\BepInEx\plugins.`
+  * Move plugin to `GAMEINSTALL\BepInEx\plugins.` It can be found under releases tab of this github repo. 
   * Launch Game and you will be able to see Fumo Tags on users with tags.
   * To request a tag please get in contact on discord!
   </details>
