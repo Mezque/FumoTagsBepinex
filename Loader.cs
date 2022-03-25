@@ -1,13 +1,11 @@
 ﻿using BepInEx;
-using BepInEx.IL2CPP;
-using UnityEngine;
-using System.Collections;
 using BepInEx.Configuration;
+using BepInEx.IL2CPP;
 using BepInEx.Logging;
-using FumoTagsBepinex;
 using FumoTagsBepinex.Modules;
-using UnhollowerRuntimeLib;
 using System;
+using UnhollowerRuntimeLib;
+using UnityEngine;
 using FumoCoroutine = FumoTagsBepinex.Modules.Coroutine;
 
 namespace FumoTagsBepinex
@@ -22,6 +20,7 @@ namespace FumoTagsBepinex
         public static ConfigEntry<bool> NameplateTag;
         public static ConfigEntry<bool> DebugToggles;
         public static BepInEx.Configuration.ConfigFile Prefs;
+
         public override void Load()
         {
             FLog = Log;
@@ -46,8 +45,13 @@ namespace FumoTagsBepinex
     public class FumoLoader : MonoBehaviour
     {
         public static ManualLogSource FLog;
+
         public FumoLoader() : base(ClassInjector.DerivedConstructorPointer<FumoLoader>()) => ClassInjector.DerivedConstructorBody(this);
-        public FumoLoader(IntPtr ptr) : base(ptr) { }
+
+        public FumoLoader(IntPtr ptr) : base(ptr)
+        {
+        }
+
         public static void loader()
         {
             FumoCoroutine.Start(CustomTags.TagListNetworkManager());

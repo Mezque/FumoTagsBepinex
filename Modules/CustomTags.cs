@@ -1,16 +1,7 @@
 ﻿using System;
 using System.Collections;
-using BepInEx;
-using BepInEx.IL2CPP;
 using System.Net;
 using UnityEngine;
-using VRC;
-using VRC.Core;
-using FumoTagsBepinex;
-using BepInEx.Logging;
-
-
-
 /*
  * Below are built for vrc release 1172 and might break in the futre.
  */
