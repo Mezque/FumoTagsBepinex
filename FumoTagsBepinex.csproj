@@ -39,10 +39,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="0Harmony, Version=2.9.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\core\0Harmony.dll</HintPath>
-    </Reference>
     <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\unhollowed\Assembly-CSharp.dll</HintPath>
@@ -84,101 +80,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\unhollowed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.TextCoreModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\unhollowed\UnityEngine.TextCoreModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\unhollowed\UnityEngine.TextRenderingModule.dll</HintPath>
-    </Reference>
-    <Reference Include="VRC.SDKBase.Editor.BuildPipeline, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\unhollowed\VRC.SDKBase.Editor.BuildPipeline.dll</HintPath>
-    </Reference>
-    <Reference Include="VRC.Udon, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\unhollowed\VRC.Udon.dll</HintPath>
-    </Reference>
-    <Reference Include="VRC.Udon.ClientBindings, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\unhollowed\VRC.Udon.ClientBindings.dll</HintPath>
-    </Reference>
-    <Reference Include="VRC.Udon.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\unhollowed\VRC.Udon.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="VRC.Udon.Security, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\unhollowed\VRC.Udon.Security.dll</HintPath>
-    </Reference>
-    <Reference Include="VRC.Udon.Serialization.AOT, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\unhollowed\VRC.Udon.Serialization.AOT.dll</HintPath>
-    </Reference>
-    <Reference Include="VRC.Udon.Serialization.OdinSerializer, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\unhollowed\VRC.Udon.Serialization.OdinSerializer.dll</HintPath>
-    </Reference>
-    <Reference Include="VRC.Udon.VM, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\unhollowed\VRC.Udon.VM.dll</HintPath>
-    </Reference>
-    <Reference Include="VRC.Udon.VRCWrapperModules, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\unhollowed\VRC.Udon.VRCWrapperModules.dll</HintPath>
-    </Reference>
-    <Reference Include="VRC.Udon.Wrapper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\unhollowed\VRC.Udon.Wrapper.dll</HintPath>
-    </Reference>
-    <Reference Include="VRC.UI.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\unhollowed\VRC.UI.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="VRC.UI.Elements, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\unhollowed\VRC.UI.Elements.dll</HintPath>
-    </Reference>
-    <Reference Include="VRC.UI.Shared, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\unhollowed\VRC.UI.Shared.dll</HintPath>
-    </Reference>
-    <Reference Include="VRC.Utility, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\unhollowed\VRC.Utility.dll</HintPath>
-    </Reference>
-    <Reference Include="VRCCore-Editor, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\unhollowed\VRCCore-Editor.dll</HintPath>
-    </Reference>
     <Reference Include="VRCCore-Standalone, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\unhollowed\VRCCore-Standalone.dll</HintPath>
-    </Reference>
-    <Reference Include="VRCLog, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\unhollowed\VRCLog.dll</HintPath>
-    </Reference>
-    <Reference Include="VRCSDK2, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\unhollowed\VRCSDK2.dll</HintPath>
-    </Reference>
-    <Reference Include="VRCSDK3, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\unhollowed\VRCSDK3.dll</HintPath>
-    </Reference>
-    <Reference Include="VRCSDK3A, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\unhollowed\VRCSDK3A.dll</HintPath>
-    </Reference>
-    <Reference Include="VRCSDKBase, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\unhollowed\VRCSDKBase.dll</HintPath>
-    </Reference>
-    <Reference Include="websocket-sharp, Version=1.0.2.59611, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>P:\steam\steamapps\common\VRChat.BepInEx\BepInEx\unhollowed\websocket-sharp.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
