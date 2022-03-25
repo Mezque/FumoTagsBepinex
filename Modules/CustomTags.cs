@@ -9,6 +9,14 @@ using VRC.Core;
 using FumoTagsBepinex;
 using BepInEx.Logging;
 
+
+
+/*
+ * Below are built for vrc release 1172 and might break in the futre.
+ */
+using NetworkManager = MonoBehaviourPrivateAc1AcOb2AcInStHa2Unique;
+using Player = MonoBehaviourPublicAPOb_v_pObBo_UBoVRObUnique;
+// field_Internal_Static_NetworkManager_0 = field_Internal_Static_MonoBehaviourPrivateAc1AcOb2AcInStHa2Unique_0
 namespace FumoTagsBepinex.Modules
 {
     class CustomTags
@@ -25,11 +33,11 @@ namespace FumoTagsBepinex.Modules
             String[] DataBase = LDB.Split(newline, StringSplitOptions.RemoveEmptyEntries);
             client.Dispose();
 
-            while (NetworkManager.field_Internal_Static_NetworkManager_0 == null)
+            while (NetworkManager.field_Internal_Static_MonoBehaviourPrivateAc1AcOb2AcInStHa2Unique_0 == null)
             {
                 yield return null;
             }
-            NetworkManager.field_Internal_Static_NetworkManager_0.field_Internal_VRCEventDelegate_1_Player_0.field_Private_HashSet_1_UnityAction_1_T_0.Add(new Action<Player>(RemotePlayer =>
+            NetworkManager.field_Internal_Static_MonoBehaviourPrivateAc1AcOb2AcInStHa2Unique_0.field_Internal_ObjectPublicHa1UnT1Unique_1_MonoBehaviourPublicAPOb_v_pObBo_UBoVRObUnique_0.field_Private_HashSet_1_UnityAction_1_T_0.Add(new Action<Player>(RemotePlayer =>
             {
                 foreach (var User in DataBase)
                 {
